@@ -17,8 +17,6 @@ public class Launcher {
 
                      int nbr1=0, nbr2=1, nbr3=0, i, count=a+1;
                      //afficher 0 et 1
-                     System.out.print("F(0) : "+nbr1);
-                     System.out.print("\nF(1) : "+nbr2);
                      //La boucle commence par 2 car 0 et 1 sont deja affiches
                      for(i=2; i<count; ++i)
                      {
@@ -26,7 +24,7 @@ public class Launcher {
                          nbr1 = nbr2;
                          nbr2 = nbr3;
                      }
-                     System.out.print("\nF("+a+") : "+nbr3);
+                     System.out.print(nbr3);
 
                      break;
                  }
